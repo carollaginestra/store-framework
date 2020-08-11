@@ -2,7 +2,7 @@
     "store.custom#landing": {
         "blocks": [
             "image#landingbanner", 
-            "search-result-layout.BlueTopRetroCamera"
+            "search-result-layout.customQuery#BlueTopRetroCamera"
         ]
     },
 
@@ -12,13 +12,12 @@
             "minWidth": "100%"
         }
     },
-    "search-result-layout.customQuery": {
+    "search-result-layout.customQuery#BlueTopRetroCamera": {
         "props": {
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": "8",
-
+                "maxItemsPerPage": "8"
             }
         }
     }
