@@ -3,6 +3,7 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main",
+      "shelf.relatedProducts",
       "shelf.relatedProducts"
     ]
   },
@@ -21,10 +22,11 @@
       "stack-layout#brand"
     ]
   },
-  "product-images": {
-    "props": {
-      "displayThumbnailsArrows": true
-    }
+  "stack-layout#brand": {
+    "children": [
+      "product-images",
+      "product-brand"
+    ]
   },
 
   "flex-layout.col#right": {
