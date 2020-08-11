@@ -84,7 +84,8 @@
     "props": {
       "initialSelection": "empty",
       "showVariationsLabels": true,
-      "showVariationsErrorMessage": true
+      "showVariationsErrorMessage": true,
+      "showValueForVariation": "image"
     }
   }
   
